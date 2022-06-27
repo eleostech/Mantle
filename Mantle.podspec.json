@@ -1,0 +1,31 @@
+{
+  "name": "Mantle",
+  "version": "1.4.1",
+  "summary": "Model framework for Cocoa and Cocoa Touch.",
+  "homepage": "https://github.com/MantleFramework/Mantle",
+  "license": "MIT",
+  "authors": {
+    "GitHub": "support@github.com"
+  },
+  "source": {
+    "git": "https://github.com/github/Mantle.git",
+    "tag": "1.4.1"
+  },
+
+  "frameworks": "Foundation",
+  "swift_version": "5.0",
+  "source_files": "Mantle/**/*.{swift,h,m}",
+  "public_header_files": "Mantle/**/*.h",
+  
+  "platforms": {
+    "ios": "5.0",
+    "osx": "10.7"
+  },
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "extobjc",
+      "source_files": "Mantle/extobjc"
+    }
+  ]
+}
